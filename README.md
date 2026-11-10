@@ -94,21 +94,21 @@ Database and table creation, primary and foreign keys, SELECT, WHERE, COUNT, SUM
 4. Run `library_project.sql` to execute C2-C14.
 5. For C13, run the complete procedure definition using a MySQL client that supports `DELIMITER`, then run `CALL member_history(1);`.
 6. Review the output of each query.
-
 Verify original records:
-
-sql
+```sql
 USE librarydb;
 SELECT COUNT(*) FROM members; -- Expected: 15
 SELECT COUNT(*) FROM books;   -- Expected: 15
 SELECT COUNT(*) FROM issues;  -- Expected: 25
 
+
 ## 10. Learning Outcomes
-Through this project, I learned how to create and manage relational databases using MySQL.
-I gained practical experience in SQL queries, joins, aggregate functions, subqueries and window functions. 
-I also learned how stored procedures and triggers automate database operations.
+Through this project, I learned how to create and manage relational databases using MySQL. I gained practical experience in SQL queries, joins, aggregate functions, subqueries and window functions. I also learned how stored procedures and triggers automate database operations.
 
 ## 11. Conclusion
-The College Library Management System demonstrates how MySQL can maintain and analyse library records.
+The College Library Management System demonstrates how MySQL can maintain and analyse library records. The project provides information about borrowing patterns, popular books, pending returns and late return fines. Stored procedures and triggers demonstrate database automation.
+
+
+
 The project provides information about borrowing patterns, popular books, pending returns and late return fines.
 Stored procedures and triggers demonstrate database automation.
