@@ -103,9 +103,7 @@ SELECT COUNT(*) FROM members; -- Expected: 15
 SELECT COUNT(*) FROM books;   -- Expected: 15
 SELECT COUNT(*) FROM issues;  -- Expected: 25
 
-
-
-##10. Learning Outcomes
+## 10. Learning Outcomes
 Through this project, I learned how to create and manage relational databases using MySQL.
 I gained practical experience in SQL queries, joins, aggregate functions, subqueries and window functions. 
 I also learned how stored procedures and triggers automate database operations.
